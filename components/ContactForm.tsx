@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -115,7 +114,7 @@ export default function ContactForm() {
             </FormItem>
           )}
         />
-        <Button type="submit" className="mt-3 lg:self-end">
+        <Button type="submit" className="mt-3 text-white lg:self-end">
           Enviar
         </Button>
       </form>
