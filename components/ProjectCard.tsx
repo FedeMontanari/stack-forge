@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export default function ProjectCard({ data }: { data: Project }) {
   return (
-    <Card className="w-fit transition-all duration-500 hover:z-10 hover:scale-105">
+    <Card className="w-fit shadow-xl transition-all duration-500 hover:z-10 hover:scale-105 hover:shadow-primary/70">
       <Link href={data.href} target="_blank" rel="noopener noreferrer">
         <div className="relative -top-3 left-[95%] h-fit w-fit rounded-full bg-xanthous p-1">
           <ExternalLink aria-hidden="true" className="text-primary" />
